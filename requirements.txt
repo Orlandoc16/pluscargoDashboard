@@ -1,0 +1,36 @@
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+streamlit-authenticator>=0.2.3
+
+# Data Processing and Analysis
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Database and API
+supabase>=2.0.0
+python-dotenv>=1.0.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities and Helpers
+tenacity>=8.2.0  # For retry logic
+requests>=2.31.0
+python-dateutil>=2.8.0
+
+# Export functionality
+openpyxl>=3.1.0  # For Excel export
+xlsxwriter>=3.1.0
+reportlab>=4.0.0  # For PDF export
+
+# Development and Testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: Enhanced UI components
+streamlit-option-menu>=0.3.6
+streamlit-aggrid>=0.3.4
+streamlit-elements>=0.1.0
