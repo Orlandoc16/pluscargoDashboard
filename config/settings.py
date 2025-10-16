@@ -92,6 +92,13 @@ def validate_config():
     
     return True
 
-# Initialize validation on import
-if __name__ != "__main__":
-    validate_config()
+def is_config_valid():
+    """Check if configuration is valid without raising exceptions."""
+    try:
+        validate_config()
+        return True
+    except ValueError:
+        return False
+
+# Note: Validation is not run automatically on import to prevent deployment failures
+# Call validate_config() or is_config_valid() explicitly when needed

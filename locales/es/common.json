@@ -48,6 +48,8 @@
   "total": "Total",
   "average": "Promedio",
   "percentage": "Porcentaje",
+  "config_warning": "Configuración incompleta. Por favor configura tus credenciales de Supabase en los secrets de Streamlit Cloud.",
+  "config_info": "Ve a Administrar app → Secrets y agrega tu URL y keys de Supabase.",
   "date": "Fecha",
   "time": "Hora",
   "duration": "Duración",

@@ -34,12 +34,11 @@ st.set_page_config(
     menu_items=None
 )
 
-# Validate configuration
-try:
-    validate_config()
-except ValueError as e:
-    st.error(f"❌ Error de configuración: {e}")
-    st.stop()
+# Check configuration and show warning if not configured
+from config.settings import is_config_valid
+if not is_config_valid():
+    st.warning("⚠️ " + t('config_warning', 'common', 'Configuration incomplete. Please set up your Supabase credentials in Streamlit Cloud secrets.'))
+    st.info("ℹ️ " + t('config_info', 'common', 'Go to Manage app → Secrets and add your Supabase URL and keys.'))
 
 # Add custom CSS for better styling and accessibility
 st.markdown("""
