@@ -1,6 +1,6 @@
 """
 Página de Leads - Call Analytics Dashboard
-Enfocada exclusivamente en leads_pluscargo_basic
+Enfocada exclusivamente en leads_pluscargo_simple
 """
 import streamlit as st
 import pandas as pd

@@ -1,6 +1,6 @@
 """
 Página de Análisis y Correlación - Call Analytics Dashboard
-Análisis avanzado entre leads_pluscargo_basic y call_results_pluscargo_basic
+Análisis avanzado entre leads_pluscargo_simple y call_results_pluscargo_simple
 """
 import streamlit as st
 import pandas as pd

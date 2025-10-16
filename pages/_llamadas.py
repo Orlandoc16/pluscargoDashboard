@@ -1,6 +1,6 @@
 """
 Página de Llamadas - Call Analytics Dashboard
-Enfocada exclusivamente en call_results_pluscargo_basic
+Enfocada exclusivamente en call_results_pluscargo_simple
 """
 import streamlit as st
 import pandas as pd

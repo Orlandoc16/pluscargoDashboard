@@ -35,8 +35,8 @@ SUPABASE_ANON_KEY = get_config_value("SUPABASE_ANON_KEY")
 SUPABASE_SERVICE_ROLE_KEY = get_config_value("SUPABASE_SERVICE_ROLE_KEY")
 
 # Database Tables
-LEADS_TABLE = os.getenv("LEADS_TABLE", "leads_pluscargo_basic")
-CALL_RESULTS_TABLE = os.getenv("CALL_RESULTS_TABLE", "call_results_pluscargo_basic")
+LEADS_TABLE = os.getenv("LEADS_TABLE", "leads_pluscargo_simple")
+CALL_RESULTS_TABLE = os.getenv("CALL_RESULTS_TABLE", "call_results_pluscargo_simple")
 AGENTS_TABLE = os.getenv("AGENTS_TABLE", "agents")
 
 # Application Settings

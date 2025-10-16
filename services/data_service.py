@@ -1,6 +1,6 @@
 """
 Data service simplificado para Call Analytics Dashboard.
-Enfocado exclusivamente en leads_pluscargo_basic y call_results_pluscargo_basic
+Enfocado exclusivamente en leads_pluscargo_simple y call_results_pluscargo_simple
 """
 import pandas as pd
 import streamlit as st

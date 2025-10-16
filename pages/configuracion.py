@@ -105,8 +105,8 @@ def render_database_config():
             st.markdown(f"#### 📋 {t('database_tables', 'settings')}")
             
             tables_info = {
-                "leads_pluscargo_basic": t('leads_table_description', 'settings'),
-                "call_results_pluscargo_basic": t('calls_table_description', 'settings'),
+                "leads_pluscargo_simple": t('leads_table_description', 'settings'),
+            "call_results_pluscargo_simple": t('calls_table_description', 'settings'),
                 "agents": t('agents_table_description', 'settings')
             }
             

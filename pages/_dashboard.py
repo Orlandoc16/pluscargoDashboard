@@ -1,6 +1,6 @@
 """
 Dashboard Principal - Vista ejecutiva con KPIs y tendencias
-Enfocado en leads_pluscargo_basic y call_results_pluscargo_basic
+Enfocado en leads_pluscargo_simple y call_results_pluscargo_simple
 """
 import streamlit as st
 import plotly.express as px

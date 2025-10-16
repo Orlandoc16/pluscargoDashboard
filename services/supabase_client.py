@@ -137,7 +137,7 @@ class SupabaseClient:
         """
         try:
             # Simple query to test connection
-            result = self.client.table("leads_pluscargo_basic").select("id").limit(1).execute()
+            result = self.client.table("leads_pluscargo_simple").select("id").limit(1).execute()
             
             return {
                 "status": "success",
